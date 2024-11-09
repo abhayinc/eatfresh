@@ -1,6 +1,6 @@
 import React,{ useContext }from "react";
 import "./home.css";
-import bike from "../../Assets/home_img_new.webp";
+import bike from "../../Assets/4668a785a2d1a372cbacdb693a9533a5.jpg";
 import safetyOverviewImage from "../../Assets/safety-overview-header.png";
 import whoWe1 from "../../Assets/who_we_1.webp";
 import whoWe2 from "../../Assets/who_we_2.webp";
@@ -26,15 +26,15 @@ const Home = () => {
       <div className="row home-row" >
         <div className="col-lg-5 home-left text-center text-lg-start" >
           <div className="px-4">
-            <h1>India’s largest bike taxi service</h1>
+            <h1>India’s fresh vegetable service</h1>
             <p>
-              Rapido is India’s first and fastest-growing Bike taxi app with a
+              eatfresh is India’s first and fastest-growing vegetable app with a
               whopping 25 Million+ app downloads. We are now running operations
               in more than 100 cities.
             </p>
             <div className="d-flex gap-2 gap-md-5 my-4 justify-content-center align-items-center">
-              <button className="home-btn">Download Rapido</button>
-              <button className="home-btn">Sign-up as Driver</button>
+              <button className="home-btn">Download eatfresh</button>
+              <button className="home-btn">Sign-up as seller</button>
             </div>
           </div>
         </div>
@@ -45,7 +45,7 @@ const Home = () => {
                 </div>
             </div>
         </div>
-   
+
       </div>
       <div className="safety-img-container">
         <img src={safetyOverviewImage} alt="safety-img" className="img-fluid" loading="lazy" />
@@ -64,7 +64,7 @@ const Home = () => {
           </div>
           <p className="know-us-text mx-auto mx-lg-0">
             We have crossed 10 million happy customers and 100 million rides.
-            Rapido is here to revolutionize intra-city travel as we bring you
+            eatfresh is here to revolutionize intra-city travel as we bring you
             redefined comfort & convenience with our disruptive service model.
           </p>
           <button className="read-more-btn" >Read more here</button>
@@ -136,9 +136,9 @@ feedback={(toggleActive1 === "Customers") ? homeFeedback : feedCaptains}
         </div>
       </div>
       <div className="row know-us-container">
-    
+
         <div className="col-lg-6 text-center  py-3 py-lg-0 " >
-          <div 
+          <div
           className="d-inline-flex flex-column align-items-center align-items-lg-start"
           >
             <h2 className="mx-auto">Rapido Business Solutions</h2>
